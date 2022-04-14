@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
   s.platforms    = { :ios => "8.0" }
 
-  s.source       = { :git => "https://github.com/mCodex/react-native-sensitive-info", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/chingmeng/react-native-sensitive-info", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m}"
 
   s.dependency 'React-Core'
